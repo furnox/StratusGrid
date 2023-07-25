@@ -3,7 +3,7 @@ BEGIN;
 SET client_encoding = 'LATIN1';
 
 CREATE TABLE car (
-    car_id SERIAL PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
     make text NOT NULL,
     model text NOT NULL
 );
